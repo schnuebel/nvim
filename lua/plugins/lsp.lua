@@ -222,8 +222,6 @@ return {
           },
         },
       },
-      goimports = {},
-      gofumpt = {},
     }
 
     vim.api.nvim_create_autocmd('BufWritePre', {
